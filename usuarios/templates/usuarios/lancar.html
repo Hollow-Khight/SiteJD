@@ -11,7 +11,7 @@
 <form action = "{% url 'lancar' %}" method = "POST">
     {% csrf_token %}
     <div class = "form-registrer">
-        <label for = "userName">Nome</label>
+        <label for = "userName">Nome:</label>
         <label for = "Name" style = "font-weight:bold;">{{ user.first_name }}</label>
     </div>
     <div class = "form-registrer">
